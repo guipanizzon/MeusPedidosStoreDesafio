@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout_network_problem_refresh"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="270dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_refresh_connection"
+        android:paddingBottom="40dp"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:text="Problemas com a conexão!"/>
+
+    <Button android:id="@+id/button_refresh_connection"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_refresh_border_drawable"
+        android:textColor="@color/refresh_button_background_color"
+        android:text="@string/request_data_connection"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.guilhermepanizzon.meuspedidosstore.View.Activities.MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:clickable="true"
+
+        android:id="@+id/content_relative_main_layout"
+        android:layout_width="match_parent"
+        android:background="#fff"
+
+        android:layout_height="match_parent" >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/photo_details_fragment"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/photo_imageview_thumbnail"
+            android:layout_below="@id/photo_details_fragment"
+            android:background="@color/cardview_shadow_start_color" />
+
+        <TextView android:id="@+id/name_details_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/separator"
+            tools:text="Full HD Flat Smart TV H5103 Series 3"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="25dp"
+
+
+            android:textSize="23sp" />
+
+
+
+        <TextView
+            android:id="@+id/currency_details_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:paddingRight="25dp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/price_coin_drawable"
+
+            android:gravity="center"
+
+            android:layout_below="@id/name_details_textview"
+            android:padding="5dp"
+            tools:text="@string/currency_text_view"
+            android:textStyle="bold"
+
+            android:text="@string/currency_text_view"
+            android:textColor="@color/currency_textview_color"
+            android:textSize="26sp" />
+
+
+        <TextView android:id="@+id/price_details_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/price_textview_color"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            tools:text="1493.1"
+            android:layout_toRightOf="@id/currency_details_textview"
+            android:layout_alignBaseline="@id/currency_details_textview"
+            android:layout_toEndOf="@id/currency_details_textview"/>
+
+        <android.support.v7.widget.CardView android:id="@+id/description_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="4dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="3dp"
+            android:layout_below="@id/price_details_textview">
+            <TextView android:id="@+id/textview_label_descricao_produto"
+                android:layout_width="wrap_content"
+                android:padding="3dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Descrição do produto"
+                android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/description_details_textview"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            tools:text="dsdsdsdsdsd dsdsdsdsdsd dsdsdsdsdsd dsdsdsdsdsd ds ds sdsd"
+           />
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+</android.support.constraint.ConstraintLayout>

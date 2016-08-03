@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5E95FC</color>
+    <color name="splash_screen_background_color">#fff</color>
+    <color name="colorPrimaryDark">#ee2b2b2b</color>
+    <color name="header_background_navigationbar_color">#fff</color>
+    <color name="colorAccent">#F9F9F9</color>
+    <color name="black_alpha_40">#a0000000</color>
+    <color name="transparent_color">#00FFFFFF</color>
+    <color name="category_textview_color">#434343</color>
+    <color name="name_product_textview_color">#737576</color>
+    <color name="price_textview_color">#292929</color>
+    <color name="currency_textview_color">#292929</color>
+    <color name="background_color">#EEEDF2</color>
+    <color name="list_view_background_color">#fff</color>
+    <color name="listview_text_color">#4C4C4C</color>
+    <color name="textview_categories_selected_color">#5E95FC</color>
+    <color name="refresh_button_text_color">#5E95FC</color>
+    <color name="refresh_button_background_color">#5E95FC</color>
+
+
+
+</resources>
