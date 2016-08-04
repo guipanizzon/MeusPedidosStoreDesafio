@@ -23,8 +23,10 @@
 *  Mockups da MeusPedidosStore
 
 <p align="center">
-  <img src="https://drive.google.com/open?id=0B7FmV_naE3EkT093YWNuZlc5RDg" width="350"/>
-
+  <img src="https://d17oy1vhnax1f7.cloudfront.net/items/3D320j1o3t3r1P2n1c3S/Screenshot_20160804-103049.png" width="150"/>
+    <img src="https://d17oy1vhnax1f7.cloudfront.net/items/090q3R1Z062Z1l2a3K18/Screenshot_20160804-103101.png" width="150"/>
+    <img src="https://d17oy1vhnax1f7.cloudfront.net/items/0L403R2x420a0N1J2U3x/Screenshot_20160804-103110.png" width="150"/>
+   <img src="https://d17oy1vhnax1f7.cloudfront.net/items/0t0X3h1J0u1r2F290J1E/Screenshot_20160804-103648.png"  width="150"/>
 </p>
    
 
