@@ -20,5 +20,11 @@
     *  Foi escolhida como minSdkVersion a API 12 pelo fato que dispositivos com a API>=12 representam cerca de 97.4% dos aparelhos utilizados na Play Store. Já o targetSdkVersion=24 e a versão do compileSdkVersion=24.
     *  Foi escolhido utilizar o Volley para ocache do JSON e imagens por aceitar algumas costumizações mais avançadas.No início surgiu a ideia de usar o Picasso. Contudo, no Volley é possível costumizar a camada de transporte, na qual poderíamos estar utilizado a biblioteca OkHttp().
     
+*  Mockups da MeusPedidosStore
+
+<p align="center">
+  <img src="https://drive.google.com/open?id=0B7FmV_naE3EkT093YWNuZlc5RDg" width="350"/>
+
+</p>
    
 
